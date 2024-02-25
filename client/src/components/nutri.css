@@ -1,0 +1,108 @@
+/* Nutri.css */
+
+.nutri-body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+     margin-top: 60vh;
+    /*margin-right: 50px;*/
+     margin-left: -100px;
+     /* width: ;  */
+}
+
+.container_nutri {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.img_nutri {
+    flex: 1;
+    padding: 20px;
+}
+
+.img-fluid {
+    width: 100%;
+    height: auto;
+    border-radius: 30px; /* Increase the border-radius for rounded edges */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.8); /* Adjust the box shadow for a floating effect */
+}
+
+.content_nutri {
+    flex: 1;
+    margin-right: 30px;
+    width: 200px;
+    padding: 20px;
+}
+/* .content_nutri>h2 {
+    width:100%;
+    padding: 20px;
+} */
+
+h2 {
+    font-size: 18px;
+    color: #333;
+    line-height: 1.5;
+}
+
+.bmi_nutri {
+    width: 180px;
+    height: 60px;
+    color: #ffffff;
+    background-color: #C6A969; /* Updated color to #C6A969 */
+    margin-inline: 45%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px; /* Add rounded border */
+    padding: 10px; /* Add padding for better appearance */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow for a card-like effect */
+}
+
+.card_shadow {
+    margin-top: 30px;
+    width: 18%;
+    height: 254px;
+    background: white;
+    border-radius: 10px;
+    transition: border-radius 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1),
+                0 0 0 2px rgb(190, 190, 190),
+                0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+
+.card_shadow_sub {
+    padding: 10%;
+}
+
+.card_shadow_sub > h2 {
+    font-size: 16px;
+    padding-top: 10x;
+}
+
+.card {
+    background-color: #C6A969; /* Updated color to #C6A969 */
+    color: #fff; /* White text color */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    width: 85%; /* Adjust the width as needed */
+    margin: 40px;
+    align-items: center;
+}
+
+.card-header {
+    text-align: center;
+    margin-bottom: 15px;
+    background-color: #C6A969;
+}
+.card-header>h2 {
+    color: #000;
+}
+
+.card-content {
+    font-size: 16px;
+    line-height: 1.5;
+}
